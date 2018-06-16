@@ -167,9 +167,7 @@ body {
     display: table;
     clear: both;
 }
-.video_2{
-  
-}
+
 
 /* 공통 헤더 */
 .header {
@@ -198,6 +196,22 @@ body {
   color: #bd2a3b;
 }
 
+/* 공통 컬럼 */
+
+.column { 
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* .final {
+  background-color: #F2F2F2;
+} */
+
 /* 공통 Footer */
 .footer {
   background: #414145;
@@ -219,13 +233,13 @@ body {
 
 /* Style all font awesome icons */
 .fa {
-  padding: 10px;
+  margin: 22px;
   font-size: 200px;
-  width: 38px;
+  width: 1px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin-bottom: 6px;
+  margin-bottom: 1px;
 }
 
 /* Add a hover effect if you want */
@@ -405,16 +419,18 @@ body {
     margin: 50px;
     padding: 20px;
   } */
-  .footer {
-    font-size: 16px;
+ .footer {
+    font-size: 18px;
     margin-top: 10px;
-    margin-bottom: 20px;
   }
   .copyright {
     width: 100%;
-    font-size: 10px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 1px;
   }
+  .fa {
+  margin: 18px;
+}
 }
 /* 데스크탑 */
 @media screen and (min-width: 1000px) {
@@ -452,7 +468,6 @@ body {
     color: #bd2a3b;
   }
   .video {
-    margin-top: 60px;
   }
   .route {
     position: relative;
@@ -571,6 +586,10 @@ body {
     font-family: "Open Sans", sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
   }
+  .finalandvideo {
+    width: 100%;
+    align-content: center;
+  }
   .next {
     position: absolute;
     right: 90px;
@@ -588,15 +607,19 @@ body {
     background: #bd2a3b;
     color: #fff;
   }
-   .footer {
+  .footer {
     font-size: 22px;
     margin-top: 50px;
     font-weight: 200;
+    text-align: center;
   }
   .copyright {
     width: 100%;
     font-size: 13px;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: center;
   }
+  .fa {
+  margin: 22px;
+}
 }

@@ -207,7 +207,7 @@ body {
   /* text-decoration:underline; */
   color: #333;
   font-weight: 400;
-  font-style: italic;
+  /* font-style: italic; */
     text-decoration-line: underline;
 
 }
@@ -216,7 +216,7 @@ body {
  /* text-decoration:underline; */
   color: #ea4c89;
   font-weight: 400;
-  font-style: italic;
+  /* font-style: italic; */
     text-decoration-line: underline;
   
 }
@@ -224,7 +224,7 @@ body {
  /* text-decoration:underline; */
   color: #bd2a3b;
   font-weight: 400;
-  font-style: italic;
+  /* font-style: italic; */
   text-decoration-line: underline;
 }
 /* Clear floats after the columns */
@@ -242,6 +242,7 @@ body {
 /* 공통 Footer */
 .footer {
   background: #414145;
+  padding: 30px;
   /* display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -259,7 +260,7 @@ body {
 
 /* Style all font awesome icons */
 .fa {
-  margin: 20px;
+  margin: 22px;
   font-size: 200px;
   width: 1px;
   text-align: center;
@@ -278,12 +279,14 @@ body {
 /* Dribbble */
 .fa-dribbble {
   background: #414145;
+  /* background: #C42261; */
   color: white;
 }
 
 /* LinkedIn */
 .fa-linkedin {
   background: #414145;
+  /* background: #0077b5; */
   color: white;
 }
 /* Medium */
@@ -294,6 +297,7 @@ body {
 /* Google */
 .fa-google {
   background: #414145;
+  /* background: #ea4335; */
   color: white;
 }
 
@@ -314,16 +318,18 @@ body {
   .nav-about {
     font-size: 14px;
   }
-  .footer {
-    font-size: 16px;
-    margin-top: 30px;
-    padding: 15px;
+   .footer {
+    font-size: 18px;
+    margin-top: 10px;
   }
   .copyright {
     width: 100%;
     font-size: 12px;
-    margin-top: 15px;
+    margin-top: 1px;
   }
+  .fa {
+  margin: 18px;
+}
   .row{
     padding: 20px 40px;
   }
@@ -467,18 +473,21 @@ body {
     margin: 50px;
     padding: 20px 140px;
   }
-   .footer {
+ .footer {
     font-size: 22px;
     margin-top: 50px;
-    font-weight: 300;
-    padding: 30px;
+    font-weight: 200;
+    text-align: center;
   }
   .copyright {
     width: 100%;
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 13px;
+    margin-top: 5px;
     text-align: center;
   }
+  .fa {
+  margin: 22px;
+}
 
 .button {
   position: relative;

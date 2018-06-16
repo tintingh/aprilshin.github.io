@@ -337,24 +337,6 @@ body {
   width: 100%;
 }
 
-/* 공통 thanks-note */
-/* .thanks-note {
-  background-color: #fff;
-}
-.thanks-note-title {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-.thanks-note-detail {
-  font-size: 10px;
-  font-weight: 300;
-}
-.get-in-touch {
-  color: #bd2a3b;
-  font-weight: 400;
-} */
-
 /* 공통 Footer */
 .footer {
   background: #414145;
@@ -376,7 +358,7 @@ body {
 
 /* Style all font awesome icons */
 .fa {
-  margin: 20px;
+  margin: 22px;
   font-size: 200px;
   width: 1px;
   text-align: center;
@@ -488,23 +470,19 @@ body {
   .card a::after {
     font-size: 18px;
   }
-  .thanks-note {
-    padding: 40px 20px 50px 20px;
-  }
-  .thanks-note-detail {
-    font-size: 18px;
-    line-height: 30px;
-  }
+
   .footer {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
-    margin-bottom: 20px;
   }
   .copyright {
     width: 100%;
-    font-size: 10px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 1px;
   }
+  .fa {
+  margin: 18px;
+}
 }
 /* 데스크탑 */
 @media screen and (min-width: 1000px) {
@@ -605,22 +583,20 @@ body {
   .card6 {
     width: 25%;
   } */
-  .thanks-note {
-    margin: 55px 130px;
-  }
-  .thanks-note-detail {
-    font-size: 22px;
-    line-height: 35px;
-  }
-   .footer {
+
+  .footer {
     font-size: 22px;
     margin-top: 50px;
     font-weight: 200;
+    text-align: center;
   }
   .copyright {
     width: 100%;
     font-size: 13px;
-    margin-top: 25px;
+    margin-top: 5px;
     text-align: center;
   }
+  .fa {
+  margin: 22px;
+}
 }

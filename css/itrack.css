@@ -204,13 +204,13 @@ body {
 
 /* Style all font awesome icons */
 .fa {
-  padding: 10px;
+  margin: 22px;
   font-size: 200px;
-  width: 38px;
+  width: 1px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin-bottom: 6px;
+  margin-bottom: 1px;
 }
 
 /* Add a hover effect if you want */
@@ -407,16 +407,18 @@ body {
     margin: 50px;
     padding: 20px;
   } */
-  .footer {
-    font-size: 16px;
+    .footer {
+    font-size: 18px;
     margin-top: 10px;
-    margin-bottom: 20px;
   }
   .copyright {
     width: 100%;
-    font-size: 10px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 1px;
   }
+  .fa {
+  margin: 18px;
+}
 }
 /* 데스크탑 */
 @media screen and (min-width: 1000px) {
@@ -590,15 +592,19 @@ body {
     background: #bd2a3b;
     color: #fff;
   }
-   .footer {
+  .footer {
     font-size: 22px;
     margin-top: 50px;
     font-weight: 200;
+    text-align: center;
   }
   .copyright {
     width: 100%;
     font-size: 13px;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: center;
   }
+  .fa {
+  margin: 22px;
+}
 }
