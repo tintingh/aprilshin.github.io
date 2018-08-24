@@ -155,7 +155,7 @@ body {
   max-width: 100%;
   height: auto;
 }
-  
+
 /* 공통 헤더 */
 .header {
   background: #fff;
@@ -172,159 +172,22 @@ body {
 }
 .nav-portfolio {
   margin-right: 30px;
-  font-size: 16px;
-  color: #bd2a3b;
+  font-size: 17px;
+  color: #333;
 }
 .nav-about {
   margin-right: 40px;
-  font-size: 16px;
-  color: #acacac;
+  font-size: 17px;
+  color: #333;
 }
-.nav-about a:hover {
+.nav-about a:hover,
+.nav-portfolio a:hover {
   color: #bd2a3b;
 }
 
-/* 공통 아티클 */
-.figcaption {
-  margin-top: 5px;
-  font-size: 16px;
-  color: #bd2a3b;
-  font-family: "Open Sans", sans-serif;
-}
-.video_caption {
-  margin-top: 42px;
-  font-family: "Open Sans", sans-serif;
-  color: #bd2a3b;
-}
-.video {
-  margin-top: 170px;
-}
-.route {
-  position: relative;
-  padding-bottom: 200px;
-}
-.route-wrap {
-  width: 1200px;
-  margin: 0 auto;
-}
-.route h1 {
-  font-size: 52px;
-  font-weight: 400;
-  padding-top: 150px;
-  margin-left: 23px;
-  line-height: 1.3;
-  font-family: "PT Serif", serif;
-}
-.rc-description {
-  font-size: 40px;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.24);
-}
-.rc-details {
-  font-family: "Open Sans", sans-serif;
-  margin: 50px 0;
-  margin-left: 23px;
-}
-.rc-details-heading {
-  font-weight: 700;
-  line-height: 2;
-}
-
-/* .route  p{
-  margin: 40px 0;
-  line-height: 1.5;
-} */
-.route figure {
-  text-align: center;
-  margin: 50px 0;
-}
-.route section {
-  width: 800px;
-  margin: 0 auto;
-}
-.overview h2 {
-  font-size: 40px;
-  font-weight: 500;
-  color: #bd2a3b;
-  margin: 100px 0px 50px 0px;
-}
-.overview p {
-  font-size: 16px;
-  line-height: 30px;
-  font-family: "Open Sans", sans-serif;
-}
-.overview-italic,
-.discover-italic,
-.italic {
-  font-style: italic;
-}
-.bold {
-  font-weight: 700;
-}
-.goals h2 {
-  font-size: 40px;
-  font-weight: 500;
-  color: #bd2a3b;
-  /* color: rgba(0, 0, 0, 0.24); */
-  margin: 130px 0px 50px 0px;
-}
-.goals p {
-  font-size: 16px;
-  line-height: 28px;
-  font-family: "Open Sans", sans-serif;
-}
-.goals-three {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 40px;
-  font-family: "Open Sans", sans-serif;
-  margin-left: 70px;
-  color: #333333;
-}
-.approach h2 {
-  font-size: 40px;
-  font-weight: 500;
-  color: #bd2a3b;
-  /* color: rgba(0, 0, 0, 0.24); */
-  margin: 130px 0px 50px 0px;
-}
-.approach p {
-  font-size: 16px;
-  line-height: 29px;
-  font-family: "Open Sans", sans-serif;
-}
-.process h2 {
-  font-size: 40px;
-  font-weight: 500;
-  color: #bd2a3b;
-  /* color: rgba(0, 0, 0, 0.24); */
-  margin: 130px 0px 50px 0px;
-}
-.process p {
-  font-size: 16px;
-  line-height: 29px;
-  font-family: "Open Sans", sans-serif;
-}
-.next {
-  position: absolute;
-  right: 50px;
-  bottom: 100px;
-  padding: 30px 100px;
-  border: 2px solid #acacac;
-  transition: all 500ms;
-  /* font-family: "Open Sans", sans-serif; */
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  background: #fff;
-  color: #acacac;
-}
-.next:hover {
-  background: #acacac;
-  color: #fff;
-}
 /* 공통 푸터 */
+/* 공통 Footer */
 .footer {
-  font-family: "Montserrat", sans-serif;
   background: #fff;
   padding: 30px;
   /* display: flex;
@@ -332,37 +195,157 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; */
-  color: #acacac;
+  color: #bd2a3b;
   text-align: center;
-  font-family: ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
 }
-.copyright {
+.copyright{
   display: block;
   margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* 모바일 */
 @media screen and (max-width: 1000px) {
-  /* .header {
+  .header {
     padding: 40px 20px 40px 20px;
-  } */
+  }
   .logo {
     margin-left: 5px;
   }
-  .route-wrap {
-    padding: 20px;
+  .route {
+    margin: 20px;
+  }
+  .figcaption,
+  .video_caption {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #bd2a3b;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .rc-description {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.24);
   }
   .route h1 {
     font-size: 30px;
+    font-weight: 400;
+    padding-top: 50px;
+    line-height: 1.3;
+    font-family: "PT Serif", serif;
   }
-  .rc-description {
+  .rc-details {
+    font-family: "Open Sans", sans-serif;
+    margin: 50px 0;
+  }
+  .rc-details-heading {
+    font-weight: 700;
+    line-height: 2;
+  }
+  .route figure {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .route section {
+    margin: 0 auto;
+  }
+  .overview h2 {
     font-size: 30px;
+    font-weight: 500;
+    color: #bd2a3b;
+    margin: 50px 0px 30px 0px;
   }
-  .next{
+  .overview p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .overview-italic,
+  .discover-italic,
+  .italic {
+    font-style: italic;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  .goals h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 50px 0px 50px 0px;
+  }
+  .goals p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .goals-three {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+  }
+  .approach h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 50px 0px 50px 0px;
+  }
+  .approach p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .process h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 50px 0px 50px 0px;
+  }
+  .process p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+  }
+   .next {
+    position: static;
+    display: block;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid #acacac;
+    transition: all 500ms;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background: #fff;
+    color: #acacac;
+  }
+  .next:hover {
+    background: #acacac;
+    color: #fff;
+  }
+
+  /* .next {
     display: block;
     position: static;
     margin: 50px;
     padding: 20px;
+  } */
+ .footer {
+    font-size: 14px;
+  }
+  .copyright {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
   }
 }
 /* 데스크탑 */
@@ -382,8 +365,146 @@ body {
     font-size: 30px;
     color: #acacac;
   }
-  .footer {
+  .figcaption {
+    margin-top: 5px;
     font-size: 16px;
+    color: #bd2a3b;
+    font-family: "Open Sans", sans-serif;
+  }
+  .video_caption {
+    margin-top: 42px;
+    font-family: "Open Sans", sans-serif;
+    color: #bd2a3b;
+  }
+  .video {
+    margin-top: 170px;
+  }
+  .route {
+    position: relative;
+    padding-bottom: 200px;
+  }
+  .route-wrap {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .route h1 {
+    font-size: 52px;
+    font-weight: 400;
+    padding-top: 150px;
+    margin-left: 23px;
+    line-height: 1.3;
+    font-family: "PT Serif", serif;
+  }
+  .rc-description {
+    font-size: 40px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.24);
+  }
+  .rc-details {
+    font-family: "Open Sans", sans-serif;
+    margin: 50px 0;
+    margin-left: 23px;
+  }
+  .rc-details-heading {
+    font-weight: 700;
+    line-height: 2;
+  }
+
+  /* .route  p{
+  margin: 40px 0;
+  line-height: 1.5;
+} */
+  .route figure {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .route section {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .overview h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #bd2a3b;
+    margin: 100px 0px 50px 0px;
+  }
+  .overview p {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .overview-italic,
+  .discover-italic,
+  .italic {
+    font-style: italic;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  .goals h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 130px 0px 50px 0px;
+  }
+  .goals p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .goals-three {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 70px;
+    color: #333333;
+  }
+  .approach h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 130px 0px 50px 0px;
+  }
+  .approach p {
+    font-size: 16px;
+    line-height: 29px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .process h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 130px 0px 50px 0px;
+  }
+  .process p {
+    font-size: 16px;
+    line-height: 29px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .next {
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    padding: 20px 100px;
+    border: 2px solid #acacac;
+    transition: all 500ms;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background: #fff;
+    color: #acacac;
+  }
+  .next:hover {
+    background: #acacac;
+    color: #fff;
+  }
+
+   .footer {
+    font-size: 17px;
   }
   .copyright {
     width: 100%;

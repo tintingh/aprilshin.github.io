@@ -172,12 +172,12 @@ body {
 }
 .nav-portfolio {
   margin-right: 30px;
-  font-size: 16px;
+  font-size: 17px;
   color: #333333;
 }
 .nav-about {
   margin-right: 40px;
-  font-size: 16px;
+  font-size: 17px;
   color: #333333;
 }
 .nav-menu a:hover{
@@ -208,7 +208,6 @@ body {
   float: left;
   width: 100%;
   font-weight: 500;
-  font-size: 30px;
 }
 .card a, .card img{
   display: block;
@@ -280,6 +279,8 @@ body {
   align-items: center; */
   color: #bd2a3b;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .copyright{
   display: block;
@@ -316,11 +317,11 @@ body {
     line-height: 30px;
   }
   .footer {
-    font-size: 12px;
+    font-size: 14px;
   }
   .copyright {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 10px;
   }
 }
@@ -354,6 +355,7 @@ body {
   }
   /* 카드 퍼센테이지 비율을 다르게 하고 싶으면 아래 카드 위드를 고치면 됨 */
   .card{
+    font-size: 30px;
     /* border: 1px solid #aaa; */
   }
   .card1 {
@@ -390,7 +392,7 @@ body {
     line-height: 38px;
   }
   .footer {
-    font-size: 16px;
+    font-size: 17px;
   }
   .copyright {
     width: 100%;
