@@ -174,11 +174,12 @@ body {
   margin-right: 30px;
   font-size: 17px;
   color: #333;
+  letter-spacing: 0.3px;
 }
 .nav-about {
-  margin-right: 40px;
   font-size: 17px;
   color: #333;
+  letter-spacing: 0.3px;
 }
 .nav-about a:hover,
 .nav-portfolio a:hover {
@@ -350,16 +351,13 @@ body {
 }
 /* 데스크탑 */
 @media screen and (min-width: 1000px) {
-  .header {
+ .header {
     padding: 40px 100px 40px 100px;
     background-color: #fff;
     position: sticky;
     top: 0;
     z-index: 100;
     box-shadow: 0 3px 3px 0 rgba(190, 190, 190, 0.01);
-  }
-  .logo {
-    margin-left: 40px;
   }
   .route-creator-title {
     font-size: 30px;
@@ -487,9 +485,9 @@ body {
   }
   .next {
     position: absolute;
-    right: 50px;
+    right: 90px;
     bottom: 100px;
-    padding: 20px 100px;
+    padding: 30px 100px;
     border: 2px solid #acacac;
     transition: all 500ms;
     /* font-family: "Open Sans", sans-serif; */

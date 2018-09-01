@@ -3,6 +3,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700");
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 /* 스타일 초기화 */
 html,
 body,
@@ -145,6 +146,7 @@ a {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Playfair Display', serif; */
   /* font-family: 'PT Serif', serif; */
   /* font-family: 'Source Sans Pro', sans-serif; */
   /* font-family: "Open Sans", sans-serif; */
@@ -156,7 +158,10 @@ body {
   max-width: 100%;
   height: auto;
 }
-
+.bold{
+  font-weight: 400;
+  color: #bd2a3b;
+}
 
 /* 공통 헤더 */
 .header {
@@ -176,11 +181,12 @@ body {
   margin-right: 30px;
   font-size: 17px;
   color: #333;
+  letter-spacing: 0.3px;
 }
 .nav-about {
-  margin-right: 40px;
   font-size: 17px;
   color: #333;
+  letter-spacing: 0.3px;
 }
 .nav-about a:hover,
 .nav-portfolio a:hover {
@@ -192,11 +198,11 @@ body {
 /* 공통 인트로 */
 .intro {
   background-color: #fff;
-  font-weight: 400;
+  font-weight: 500;
 }
 .view-resume {
-  font-weight: 300;
-  margin-top: 30px;
+  font-weight: 400;
+  margin-top: 28px;
 }
 .click-here {
   color: #bd2a3b;
@@ -270,6 +276,7 @@ body {
 }
 .get-in-touch {
   color: #bd2a3b;
+  font-weight: 400;
 }
 /* 공통 Footer */
 .footer {
@@ -284,10 +291,12 @@ body {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 .copyright{
   display: block;
   margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* 모바일 */
@@ -314,13 +323,13 @@ body {
     width: 100%;
   }
   .thanks-note {
-    padding: 20px 20px 50px 20px;
+    padding: 40px 20px 50px 20px;
   }
   .thanks-note-detail {
     font-size: 18px;
     line-height: 30px;
   }
-  .footer {
+ .footer {
     font-size: 14px;
   }
   .copyright {
@@ -339,19 +348,17 @@ body {
     z-index: 100;
     box-shadow: 0 3px 3px 0 rgba(190, 190, 190, 0.01);
   }
-  .logo {
-    margin-left: 40px;
-  }
+
   .intro{
     padding: 140px 140px 0 140px;
   }
   .intro-contents{
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 45px;
   }
   .view-resume {
-    font-size: 24px;
+    font-size: 25px;
   }
   .main{
     padding-top: 140px;
@@ -369,7 +376,10 @@ body {
     width: 50%;
   }
   .card3 {
-    width: 100%;
+    width: 50%;
+  }
+  .card4 {
+    width: 50%;
   }
   /* .card3 {
     height: 485px;
@@ -389,11 +399,11 @@ body {
     width: 25%;
   } */
   .thanks-note {
-    padding: 140px;
+    margin: 55px 130px;
   }
   .thanks-note-detail {
-    font-size: 24px;
-    line-height: 38px;
+    font-size: 22px;
+    line-height: 35px;
   }
   .footer {
     font-size: 17px;
