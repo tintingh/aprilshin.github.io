@@ -190,8 +190,9 @@ body {
 .nav-portfolio a:hover {
   color: #bd2a3b;
 }
-.bold{
+.red{
   color: #bd2a3b;
+  font-weight: 400;
 }
 
 /* 공통 메인 */
@@ -207,6 +208,8 @@ body {
   align-items: center; */
   color: #bd2a3b;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .copyright{
   display: block;
@@ -222,22 +225,23 @@ body {
     margin-left: 5px;
   }
   .footer {
-    font-size: 12px;
+    font-size: 14px;
   }
   .copyright {
     width: 100%;
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 14px;
+    margin-top: 8px;
   }
   .about-intro{
-  padding: 20px 20px;
+  padding: 20px 40px;
   line-height: 30px;
-  font-size: 23px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
 }
   .about-article{
-    padding: 20px;
-    font-size: 20px;
+    padding: 8px 40px;
+    font-size: 18px;
+    line-height: 25px;
   }
 }
 
@@ -252,14 +256,18 @@ body {
     box-shadow: 0 3px 3px 0 rgba(190, 190, 190, 0.01);
   }
   .about-intro{
-  padding: 50px 100px;
-  line-height: 40px;
-  font-size: 28px;
-  font-weight: 300;
+  padding: 50px 140px;
+  line-height: 45px;
+  font-size: 32px;
+  font-weight: 400;
 }
   .about-article{
-  padding: 20px 100px;
+  padding: 20px 150px;
   font-size: 24px;
   font-weight: 300;
+  line-height: 42px;
 }
+  .footer {
+    font-size: 17px;
+  }
 }
