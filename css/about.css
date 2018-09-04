@@ -192,7 +192,7 @@ body {
 }
 .red{
   color: #bd2a3b;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /* 공통 메인 */
@@ -236,7 +236,7 @@ body {
   padding: 20px 40px;
   line-height: 30px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
   .about-article{
     padding: 8px 40px;
@@ -259,7 +259,7 @@ body {
   padding: 50px 140px;
   line-height: 45px;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 300;
 }
   .about-article{
   padding: 20px 150px;
