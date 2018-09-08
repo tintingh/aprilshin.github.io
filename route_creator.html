@@ -4,210 +4,230 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Route Creator - User Experience Design</title>
   <link rel="stylesheet" href="css/route_creator.css">
-</head>
+  <link rel="stylesheet" href="css/magnifier.css" </head>
 
-<body>
-  <header class="header">
-    <h1 class="logo">
-      <a href="index.html">
-        <img src="img/logo_new3.png" width="55%" height="auto" alt="">
-      </a>
-    </h1>
-    <nav aria-label="네비게이션">
-      <ul class="nav-menu">
-        <li class="nav-portfolio">
-          <a href="index.html">Portfolio</a>
-        </li>
-        <li class="nav-about">
-          <a href="about.html">About</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <article class="route">
-    <div class="route-wrap">
-      <h1>Route Creator
-        <p class="rc-description">
-          An application that allows you
-          <br> to make your own routes in the most convenient way
-        </p>
+  <body>
+    <header class="header">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="img/logo_new3.png" width="55%" height="auto" alt="">
+        </a>
       </h1>
-      <p class="rc-details">
-        <span class="rc-details-heading">Type</span>   Individual Project
-        <br>
-        <span class="rc-details-heading">Role</span>  UX/UI Designer
-        <br>
-        <span class="rc-details-heading">Duration</span>  Summer 2018
-        <br>
-        <span class="rc-details-heading">Service Slogan</span>  Less than a minute. Create your own routes. It’s super quick, flexible, and easy.
-        <br>
-      </p>
-    </div>
-    <figure>
-      <img class="rwd-img" src="rc_contents/RC_firstimg.jpg" width=100% height=auto alt="">
-    </figure>
-    <section class="overview">
-      <h2>Overview</h2>
-      <p>As an enthusiastic traveler, <span class="bold">making itinerary takes up a lot of times and efforts</span> to me.
-      <br>Of course, Google Map is my savior in
-      this, but still, I need extra papers to write down notes to schedule my trip.
-       Whenever there comes a few changes in my plan, I should go back to the map, search places again, and compare distances to find the most efficient routes for my entire schedule.
-      <br><br>I was given this project when taking full-time UX school class at Fast Campus. Fast Campus UX School is a competitive UX
-      professional program in Korea like General Assembly. Through design process, I immediately noticed there are many
-      users experiencing same issues as I had. More importantly, <span class="bold">there is no satisfactory mobile application that helps users create their own travel routes</span> despite of great amount of needs.  
-      <!-- <br><br>While exploring these issues, I came up with the idea of <span class="bold">shopping cart</span>: 
+      <nav aria-label="네비게이션">
+        <ul class="nav-menu">
+          <li class="nav-portfolio">
+            <a href="index.html">Portfolio</a>
+          </li>
+          <li class="nav-about">
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <article class="route">
+      <div class="route-wrap">
+        <h1>Route Creator
+          <p class="rc-description">
+            An application that allows you
+            <br> to make your own routes in the most convenient way
+          </p>
+        </h1>
+        <p class="rc-details">
+          <span class="rc-details-heading">Type</span> Individual Project
+          <br>
+          <span class="rc-details-heading">Role</span> UX/UI Designer
+          <br>
+          <span class="rc-details-heading">Duration</span> Summer 2018
+          <br>
+          <span class="rc-details-heading">Service Slogan</span> Create your own routes in less than a minute. It’s super quick,
+          flexible, and easy.
+          <br>
+        </p>
+      </div>
+      <figure>
+        <img class="rwd-img" src="rc_contents/RC_firstimg.jpg" width=100% height=auto alt="">
+      </figure>
+      <section class="overview">
+        <h2>Overview</h2>
+        <p>I am an enthusiastic traveler, but <span class="bold">making an itinerary takes a lot of time and effort</span> even for
+          me.
+          <br>Of course, Google Map is my savior in this, but I still often need extra papers to write down notes to schedule
+          my trip. Whenever my plan undergoes some changes, I go back to the map, search places again, and compare
+          distances to find the most efficient routes for my entire schedule.
+          <br><br>I was given this project when taking full-time UX school class at Fast Campus. Fast Campus UX School is
+          a competitive UX professional program in Korea, similar to General Assembly. Through the design process, I quickly noticed
+          many users experience the same issues as I do. More importantly, <span class="bold">no satisfactory
+            mobile application helps users create their own travel routes,</span> despite abundant need.
+          <!-- <br><br>While exploring these issues, I came up with the idea of <span class="bold">shopping cart</span>: 
       <br><br><span class="italic">“Why can't we use the concept of shopping cart in helping users to create own routes?”</span> -->
-     
-      <br><br>Based on rigorous research with keen insights, I finally designed the
-      application called, <span class="italic">Route Creator.</span> The service was <span class="bold">nominated 3rd place</span> among 23 others in in-class final design competition.
-      </p>
-    </section>
-    <section class="goals">
-      <h2>Goals</h2>
-      <p>Route Creator aims to help users save their times and efforts when they want to:
-        <div class="goals-three">
-          <br>1) quickly make their own and unique travel plans ahead 
-          <br>2) flexibly adjust or change their trip schedules while traveling
-          <br>3) easily find the most efficient routes for their everyday life
-        </div>
-      </p>
-      <figure>
-        <img class="rwd-img" src="rc_contents/user_scenario.png" width="100%" height="auto" alt="">
-        <figcaption class="figcaption">User Scenario explaining how users can achieve their goals through the service.</figcaption>
-      </figure>
-      </section>
-    <section class="approach">
-      <h2>Approach</h2>
-      <p>
-        I utilized the double-diamond tactic for this project: <span class="italic">Discover, Define, Develop, and Deliver.</span>
-        <br><br>In <span class="discover-italic">Discover</span> phase,
-        the project was conducted as a team, who were also working with the same topic, travel. We conducted quantitative and qualitative research together including <span class="bold">survey, individual in-depth interviews.</span>
-        Before delving into the next phase, I used <span class="bold">affinity diagram</span> to organize ideas and data to draw <span class="bold">key findings.</span>
-        <br><br>In <span class="discover-italic">Define</span> phase, I defined
-        purpose of design: Who, What, How, by <span class="bold">identifying target user & problems</span> through <span class="bold"> user segmentation, persona scenario</span>, and <span class="bold">journey map.</span>
-        <br><br>In <span class="discover-italic">Develop</span> phase, I created blueprint to solve my users’ problems by incorporating creative <span class="bold">ideation, UX strategy.</span> Based on UX strategy, I started developing design concept by utilizing <span class="bold">mind map, concept
-        keyword, mood board.</span>
-        <br><br>In <span class="discover-italic">Deliver</span> phase, I created <span class="bold"> wireframes </span>and had <span class="bold">low-fi wireframe session</span>, which provided me precious feedbacks from users. 
-        Finally, I finalized my <span class="bold"> final design </span>and completed <span class="bold">prototyping</span>.
 
-      </p>
-    </section>   
-    <section class="process">
-      <h2>Process: Discover</h2>
-      <p>
-        In <span class="discover-italic">Discover</span> phase, tailored research is the key. As a team-based research, we conducted <span class="bold">desk research </span>by assigning each other different focus:
-        domestic trend, global trend, current popular travel app services.  
-        <br><br>After the discussion with the outcomes, we conducted <span class="bold">survey </span>with
-        100+ participants, and <span class="bold">individual interviews</span> to figure out current users' experiences with other travel apps and problems
-        they encountered. We later, selected 4 interviewees, who gave insightful responses for <span class="bold">in-depth individual interviews.</span>        
-      </p>
-      <figure>
-        <img class="rwd-img" src="rc_contents/discover_research.jpg" alt="">
-      </figure>
-    </section>
-    <section class="process">
-      <h2>Key Findings </h2>
-      <!-- <p>Before delving into next phase, I found 3 important key findings based on previous phase.</p> -->
-      <figure>
-        <img class="rwd-img" src="rc_contents/key_findings.png" alt="">
-      </figure>
-    </section>
-    <section class="process">
-      <h2>Process: Define</h2>
-      <p>To me, <span class="italic">define</span> phase, is the most important part taking longer times and efforts than any other phases. <span class="bold">Defining WHO (target user), WHAT (service blueprint), HOW (method)</span> is the heart of every problem-solving. 
-      <br><br>As for the first step, I asked myself,
-      “who is my target user?” to <span class="bold">identify my core users.</span> In this process, I grabbed 5 sticky notes and define 5 types of people
-      who may need my service the most. Based on this, I drew <span class="bold">user segmentation matrix </span>based on two most important factors, age and traveling
-      style, as x and y axis criteria. 
-      <br><br>After, I wrote down three major tasks that such types of people would do when they need
-      my service. Then, I decided to choose which types of users I should focus to define my target users. Based on the above-mentioned
-      key findings and target users, I created <span class="bold">personas, persona scenario, </span> and <span class="bold">journey maps </span>to <span class="bold">identify my target users & users’ problems.</span>
-      </p>
-      <div class="img-magnifier-container">
+          <br><br>Based on rigorous research with insightful analysis, I finally designed an application, <span class="italic">Route
+            Creator.</span> The service was <span class="bold">nominated 3rd place</span> among 23 others in in-class final
+          design competition.
+        </p>
+      </section>
+      <section class="goals">
+        <h2>Goals</h2>
+        <p>Route Creator helps users save time and effort when they want to:
+          <div class="goals-three">
+            <br>1) quickly make their individualized and unique travel plans
+            <br>2) flexibly adjust or change their trip schedules while traveling
+            <br>3) easily find the most efficient routes for their everyday life
+          </div>
+        </p>
         <figure>
-          <img id="myimage" class="rwd-img" src="rc_contents/define_user_matrix.jpg" alt="">
+          <img class="rwd-img" src="rc_contents/user_scenario.png" width="100%" height="auto" alt="">
+          <figcaption class="figcaption">User Scenario explaining how users can achieve their goals through the service.</figcaption>
+        </figure>
+      </section>
+      <section class="approach">
+        <h2>Approach</h2>
+        <p>
+          I utilized the double-diamond tactic for this project: <span class="italic">Discover, Define, Develop, and Deliver.</span>
+          <br><br>In <span class="discover-italic">Discover</span> phase, the project was conducted by a team, who were also
+          working with the same topic, travel. We collaborately conducted quantitative and qualitative research including <span
+            class="bold">survey</span> and <span class="bold">individual in-depth interviews.</span>
+          Before delving into the next phase, I used an <span class="bold">affinity diagram</span> to organize ideas and data
+          to draw <span class="bold">key findings.</span>
+          <br><br>In <span class="discover-italic">Define</span> phase, I defined purpose of design - what, how, and for whom - by <span
+            class="bold">identifying target users & problems</span> through <span class="bold"> user segmentation, persona scenario</span>,
+          and a <span class="bold">journey map.</span>
+          <br><br>In <span class="discover-italic">Develop</span> phase, I created a blueprint to solve my users’ problems
+          by incorporating creative <span class="bold">ideation, UX strategy.</span> Based on UX strategy, I started developing
+          a design concept by utilizing <span class="bold">mind maps, concept keywords, and a mood board.</span>
+          <br><br>In <span class="discover-italic">Deliver</span> phase, I created <span class="bold"> wireframes </span>and
+          had a <span class="bold">low-fi wireframe session</span>, which provided me precious feedback from users. Finally,
+          I finalized my <span class="bold"> final design </span>and completed <span class="bold">prototyping</span>.
+
+        </p>
+      </section>
+      <section class="process">
+        <h2>Process: Discover</h2>
+        <p>
+          In <span class="discover-italic">Discover</span> phase, tailored research is key. As a team-based research,
+          we conducted <span class="bold">desk research </span>by assigning each other different foci: domestic trend, global
+          trend, or current popular travel app services.
+          <br><br>After discussion of the outcomes, we conducted a <span class="bold">survey </span>with 100+ participants,
+          and <span class="bold">individual interviews</span> to figure out current users' experiences with other travel
+          apps and problems they encountered. We later, selected 4 interviewees, who gave insightful responses for <span
+            class="bold">in-depth individual interviews.</span>
+        </p>
+        <figure>
+          <img class="rwd-img" src="rc_contents/discover_research.jpg" alt="">
+        </figure>
+      </section>
+      <section class="process">
+        <h2>Key Findings </h2>
+        <!-- <p>Before delving into next phase, I found 3 important key findings based on previous phase.</p> -->
+        <figure>
+          <img class="rwd-img" src="rc_contents/key_findings.png" alt="">
+        </figure>
+      </section>
+      <section class="process">
+        <h2>Process: Define</h2>
+        <p>To me, <span class="italic">Define</span> is the most important phase, requiring more time and effort than
+          any other phase. <span class="bold">Defining WHO (target user), WHAT (service blueprint), HOW (method)</span>
+          is the heart of problem-solving.
+          <br><br>As for the first step, I asked myself, “Who is my target user?” to <span class="bold">identify my core
+            users.</span> In this process, I grabbed 5 sticky notes and define 5 types of people who may need my service
+          the most. Based on this, I drew a <span class="bold">user segmentation matrix </span>based on two most important
+          factors, age and traveling style, as x and y axis criteria.
+          <br><br>After, I wrote down three major tasks that such types of people would perform when they need my service. Then,
+          I decided to choose which types of users I should focus on to define my target users. Based on the above-mentioned
+          key findings and target users, I created <span class="bold">personas, persona scenario, </span> and <span class="bold">journey
+            maps </span>to <span class="bold">identify my target users and users’ problems.</span>
+        </p>
+        <figure>
+          <img class="rwd-img" src="rc_contents/define_user_matrix.jpg" alt="">
           <figcaption class="figcaption">Utilized user segmentation matrix to define target users and persona.</figcaption>
           <img class="rwd-img" src="rc_contents/define_persona.jpg" alt="">
           <figcaption class="figcaption"> Persona, Persona Scenario, and Journey Map.</figcaption>
           <img class="rwd-img" src="rc_contents/define_user_problems.jpg" alt="">
           <figcaption class="figcaption"> User problem statement based on persona and journey map.</figcaption>
         </figure>
-      </div>
-    </section>
-    <section class="process">
-      <h2>Process: Develop</h2>
-      <p>In <span class="italic">develop</span> phase, I should consider WHAT to deliver, a <span class="bold">service blueprint</span>. To do this, previous research team members gathered for <span class="bold">ideation</span>
-      sprint. Each member had 30 minutes of allotted time to come up with 50+ ideas which address users’ problems.
-      <br><br>After exploring diverse ideas, I picked 5 ideas that I want to focus and conducted <span class="bold">Funnel Vision</span>. By doing this, I was able
-      to converge and distill ideas to evaluate properly, and find the best matched solution to my target users.
-      With the above-mentioned process, I finalized <span class="bold">service key features, service concept to deliver UX values.</span> 
-      <br><br>Based on UX values, I started developing design concept by utilizing <span class="bold">mindmap and mood board.</span> 
-  
-    </p>
-      <figure>
-        <img class="rwd-img" src="rc_contents/develop_ux_strategy_whole.jpg" alt="">
-      </figure>
-    </section>
-    <section class="process">
-      <h2>Process: Deliver</h2>
-      <p>In <span class="italic">Deliver</span> phase, based on previous process, I created <span class="bold">wireframes</span> and had low-fi user testing session to create final wireframe. Combining
-      with all precious feedbacks, I finalized <span class="bold">design</span> and completed <span class="bold">prototyping</span>.
-    </p>
-      <figure>
-        <img class="rwd-img" src="rc_contents/deliver_wireframe.jpg" alt="">
-        <figcaption class="figcaption">Wireframes.</figcaption>
-        <img class="rwd-img" src="rc_contents/deliver_final_design.jpg" alt="">
-        <figcaption class="figcaption">Final design and User flow based on low-fi session feedbacks.</figcaption>
-        <figure class="video"> 
-          <video class="video" src="rc_contents/DONERC_compressed.mp4" autoplay controls muted width="40%"></video>
-          <figcaption class="video_caption">Prototyping.</figcaption>
+      </section>
+      <section class="process">
+        <h2>Process: Develop</h2>
+        <p>In <span class="italic">Develop</span> phase, I should consider WHAT to deliver, a <span class="bold">service
+            blueprint</span>. To do this, previous research team members gathered for an <span class="bold">ideation</span>
+          sprint. Each member had 30 minutes of allotted time to come up with 50+ ideas to address users’ problems.
+          <br><br>After exploring diverse ideas, I picked 5 ideas that I want to focus on and conducted <span class="bold">Funnel
+            Vision</span>. By doing this, I was able to converge and distill ideas to evaluate them properly, and find the
+           solution that best matched my target users. With the above-mentioned process, I finalized <span class="bold">service key
+            features, service concept to deliver UX values.</span>
+          <br><br>Based on UX values, I started developing a design concept by utilizing <span class="bold">mindmaps and a mood
+            board.</span>
+
+        </p>
+        <figure>
+          <img class="rwd-img" src="rc_contents/develop_ux_strategy_whole.jpg" alt="">
         </figure>
-      </figure>
-      
-    </section>
+      </section>
+      <section class="process">
+        <h2>Process: Deliver</h2>
+        <p>In <span class="italic">Deliver</span> phase, based on the previous processes, I created <span class="bold">wireframes</span>
+          and had a low-fi user testing session to create final wireframe. Combining all precious feedbacks, I finalized
+          <span class="bold">design</span> and completed <span class="bold">prototyping</span>.
+        </p>
+        <figure>
+          <img class="rwd-img" src="rc_contents/deliver_wireframe.jpg" alt="">
+          <figcaption class="figcaption">Wireframes.</figcaption>
+          <div class="img-magnifier-container">
+            <img id="myimage" class="rwd-img" src="rc_contents/deliver_final_design.jpg" alt="">
+          </div>
+          <figcaption class="figcaption">Final design and User flow based on low-fi session feedbacks.</figcaption>
+          <figure class="video">
+            <video class="video" src="rc_contents/DONERC_compressed.mp4" autoplay controls muted width="40%"></video>
+            <figcaption class="video_caption">Prototyping.</figcaption>
+          </figure>
+        </figure>
+      </section>
       <!-- <figure class="video">
         <video src="practice-img/비디오삽입.mp4" autoplay muted></video>
         <figcaption>Driver profile motion studies.</figcaption>
       </figure> -->
-    </section>
-    <section class="process">
-      <h2>Final Thoughts</h2>
-      <p>
-        This project gave me 3 important takeaways.<br><br>
-        <span class="bold">One, although the market is red ocean, opportunities exist.</span>
-        <br><br>When I was initially
-        given the project, I thought there are just so many travel apps available that it might be hard for me to come up
-        with fresh ideas. However, I’ve found that there are always the needs untapped, which means, tailored research along with
-        keen insights always can provide me the opportunities. 
-        <br><br> <span class="bold">Two, feedbacks make everything “so much” better.</span>
-        <br><br>From UX research
-        to design, I’ve received tons of feedbacks not from the users but other designers or project managers. Users’ feedbacks are
-        the core part of everything, helping me to fully empathize with users so that I can get rid of my personal opinions. Other
-        designers’ feedbacks allowed me to further consider details of my design based on professional UX and aesthetic views. Project
-        managers’ feedbacks allowed me to consider business values of my product. 
-        <br><br> <span class="bold">Three, study and learn passionately to make differences.</span>
-        <br><br>Three, study and learn passionately to make differences.  I realized there are so many similar UX designs and features, which
-        might make users get bored with. Although my professional UX experiences are short for now, as a HCI student at one of the
-        top notch schools, I became so passionate to study, learn, and grow, so I can make differences in the field.
       </section>
-     
-   
-    <a class="next" href="global_audio.html">
-      Next: Samsung Global Audio Project
-    </a>
-  </article>
-  <footer class="footer">
-    <address>
-      <a class="email" href="mailto:april.e.shin@gmail.com">april.e.shin@gmail.com</a>
-      <a class="Resume" target="_blank" href="resume/April Resume 2017August-updated.pdf"> ㆍ Resume </a>
-      <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/aprileshin/"> ㆍ Linkedin </a>
-      <!-- <a class="medium" target="_blank" href="#">   ㆍ  Medium  </a> -->
-    </address>
-    <small class="copyright">Design and Contents &copy;2018 April Euljin Shin.</small>
-  </footer>
-</body>
+      <section class="process">
+        <h2>Final Thoughts</h2>
+        <p>
+          This project gave me two important takeaways.<br><br>
+          <span class="bold">One: Although the market is red ocean, opportunities exist.</span>
+          <br><br>When I was initially given the project, I worried that the great number of travel apps available
+          might make it hard for me to come up with fresh ideas. However, I’ve found that there are always needs untapped,
+          which means tailored research along with keen insights can always reveal opportunities.
+          <br><br> <span class="bold">Two: Feedbacks make everything “so much” better.</span>
+          <br><br>From UX research to design, I’ve received tons of feedback not only from users but also other designers or project
+          managers. Users’ feedbacks are the core part of everything, helping me to fully empathize with their need so that I
+          don't over-rely on my personal opinions. Other designers’ feedback allowed me to further consider details of my design
+          based on professional UX and aesthetic views. Project managers’ feedback allowed me to consider the business value
+          of my product.
+      
+      </section>
+
+
+      <a class="next" href="global_audio.html">
+        Next: Samsung Global Audio Project
+      </a>
+    </article>
+    <footer class="footer">
+      <address>
+        <a class="email" href="mailto:ezshin@umich.edu">ezshin@umich.edu</a>
+        <a class="Resume" target="_blank" href="resume/April Resume 2017August-updated.pdf"> ㆍ Resume </a>
+        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/aprileshin/"> ㆍ Linkedin </a>
+        <!-- <a class="medium" target="_blank" href="#">   ㆍ  Medium  </a> -->
+      </address>
+      <small class="copyright">Design and Contents &copy;2018 April Euljin Shin.</small>
+    </footer>
+
+    <script src="js/magnifier.js"></script>
+    <script>
+      /*Execute the magnify function:*/
+      magnify("myimage", 4);
+  /*Specify the id of the image, and the strength of the magnifier glass:*/
+    </script>
+  </body>
 
 </html>
