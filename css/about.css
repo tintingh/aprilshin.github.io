@@ -236,12 +236,13 @@ body {
   padding: 20px 35px;
   line-height: 30px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
   .about-article{
     padding: 8px 35px;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 25px;
+    font-family: "Open Sans", sans-serif;
   }
 }
 
@@ -256,16 +257,17 @@ body {
     box-shadow: 0 3px 3px 0 rgba(190, 190, 190, 0.01);
   }
   .about-intro{
-  padding: 50px 130px;
+  padding: 50px 150px;
   line-height: 45px;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 300;
 }
   .about-article{
-  padding: 20px 130px;
+  padding: 20px 150px;
   font-size: 24px;
-  font-weight: 400;
-  line-height: 42px;
+  font-weight: 300;
+  line-height: 35px;
+  font-family: "Open Sans", sans-serif;
 }
   .footer {
     font-size: 17px;
