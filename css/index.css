@@ -254,7 +254,7 @@ body {
 }
 .card3 a:hover::after {
   background: rgba(0, 0, 0, 0.4);
-  content: "UX Design Thinking Project: Solution to the world's lowest birth rate in Korea";
+  content: "[TBD] UX Design Thinking Project: Solution to the world's lowest birth rate in Korea";
   padding: 50px;
 }
 
