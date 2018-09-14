@@ -240,9 +240,25 @@ body {
 }
   .about-article{
     padding: 8px 35px;
-    font-size: 13px;
+    font-size: 18px;
     line-height: 25px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
+  }
+   .download_resume{
+    margin: 20px 35px;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #acacac;
+    transition: all 500ms;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background: #fff;
+    color: #acacac;
+ }
+   .download_resume:hover {
+    background: #acacac;
+    color: #fff;
   }
 }
 
@@ -267,9 +283,25 @@ body {
   font-size: 24px;
   font-weight: 300;
   line-height: 35px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
   .footer {
     font-size: 17px;
+  }
+ .download_resume{
+    margin: 50px 150px;
+    padding: 35px;
+    text-align: center;
+    border: 2px solid #acacac;
+    transition: all 500ms;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    background: #fff;
+    color: #acacac;
+ }
+   .download_resume:hover {
+    background: #acacac;
+    color: #fff;
   }
 }
