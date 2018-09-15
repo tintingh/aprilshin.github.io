@@ -279,6 +279,7 @@ body {
   color: #bd2a3b;
   font-weight: 400;
 } */
+
 /* 공통 Footer */
 .footer {
   background: #fff;
@@ -288,16 +289,57 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; */
-  color: #bd2a3b;
+  color: #acacac;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
   font-family: "Montserrat", sans-serif;
+  
 }
 .copyright{
   display: block;
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 200px;
+    width: 38px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-bottom: 6px; 
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Dribbble */
+.fa-dribbble {
+    background: #C42261;
+    color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    background: #0077b5;
+    color: white;
+}
+/* Medium */
+.fa-medium {
+    background: #333;
+    color: white;
+}
+/* Google */
+.fa-google {
+    background: #ea4335;
+    color: white;
 }
 
 /* 모바일 */
@@ -332,11 +374,11 @@ body {
     line-height: 30px;
   }
  .footer {
-    font-size: 12px;
+    font-size: 16px;
   }
   .copyright {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 10px;
   }
 }
@@ -409,7 +451,7 @@ body {
     line-height: 35px;
   }
   .footer {
-    font-size: 17px;
+    font-size: 18px;
   }
   .copyright {
     width: 100%;
