@@ -7,8 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Route Creator - User Experience Design</title>
   <link rel="stylesheet" href="css/route_creator.css">
-  <link type="text/css" href="magnifier.css" rel="stylesheet">
-  <script type="text/javascript" src="magnifier.js"></script>
+  <link type="text/css" href="css/magnifier.css" rel="stylesheet">
+  <link type="text/css" href="css/glassstyle.min.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/lightzoom.min.js"></script>
+
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -46,7 +49,8 @@
         <br>
         <span class="rc-details-heading">Duration</span> Summer 2018
         <br>
-        <span class="rc-details-heading">Service Slogan</span> Create your own routes in less than a minute. It’s super quick,
+        <span class="rc-details-heading">Service Slogan</span> Create your own routes in less than a minute. It’s super
+        quick,
         flexible, and easy.
         <br>
       </p>
@@ -58,19 +62,25 @@
       <h2>Overview</h2>
       <p>I am an enthusiastic traveler, but <span class="bold">making an itinerary takes a lot of time and effort</span>
         even for me.
-        <br>Of course, Google Map is my savior in this, but I still often need extra papers to write down notes to schedule
-        my trip. Whenever my plan undergoes some changes, I go back to the map, search places again, and compare distances
+        <br>Of course, Google Map is my savior in this, but I still often need extra papers to write down notes to
+        schedule
+        my trip. Whenever my plan undergoes some changes, I go back to the map, search places again, and compare
+        distances
         to find the most efficient routes for my entire schedule.
-        <br><br>I was given this project when taking full-time UX school class at Fast Campus. Fast Campus UX School is a
-        competitive UX professional program in Korea, similar to General Assembly. Through the design process, I quickly
-        noticed many users experience the same issues as I do. More importantly, <span class="bold">no satisfactory mobile
+        <br><br>I was given this project when taking full-time UX school class at Fast Campus. Fast Campus UX School is
+        a
+        competitive UX professional program in Korea, similar to General Assembly. Through the design process, I
+        quickly
+        noticed many users experience the same issues as I do. More importantly, <span class="bold">no satisfactory
+          mobile
           application helps users create their own travel routes,</span> despite abundant need.
         <!-- <br><br>While exploring these issues, I came up with the idea of <span class="bold">shopping cart</span>: 
       <br><br><span class="italic">“Why can't we use the concept of shopping cart in helping users to create own routes?”</span> -->
 
         <br><br>Based on rigorous research with insightful analysis, I finally designed an application, <span class="italic">Route
           Creator.
-        </span> The service was <span class="bold">nominated 3rd place</span> among 23 others in in-class final design competition.
+        </span> The service was <span class="bold">nominated 3rd place</span> among 23 others in in-class final design
+        competition.
       </p>
     </section>
     <section class="goals">
@@ -90,20 +100,28 @@
     <section class="approach">
       <h2>Approach</h2>
       <p>
-        I utilized the double-diamond tactic for this project: <span class="italic">Discover, Define, Develop, and Deliver.</span>
-        <br><br>In <span class="discover-italic">Discover</span> phase, the project was conducted by a team, who were also
-        working with the same topic, travel. We collaborately conducted quantitative and qualitative research including <span
-          class="bold">survey</span> and <span class="bold">individual in-depth interviews.</span>
-        Before delving into the next phase, I used an <span class="bold">affinity diagram</span> to organize ideas and data
+        I utilized the double-diamond tactic for this project: <span class="italic">Discover, Define, Develop, and
+          Deliver.</span>
+        <br><br>In <span class="discover-italic">Discover</span> phase, the project was conducted by a team, who were
+        also
+        working with the same topic, travel. We collaborately conducted quantitative and qualitative research including
+        <span class="bold">survey</span> and <span class="bold">individual in-depth interviews.</span>
+        Before delving into the next phase, I used an <span class="bold">affinity diagram</span> to organize ideas and
+        data
         to draw <span class="bold">key findings.</span>
-        <br><br>In <span class="discover-italic">Define</span> phase, I defined purpose of design - what, how, and for whom
-        - by <span class="bold">identifying target users & problems</span> through <span class="bold"> user segmentation,
+        <br><br>In <span class="discover-italic">Define</span> phase, I defined purpose of design - what, how, and for
+        whom
+        - by <span class="bold">identifying target users & problems</span> through <span class="bold"> user
+          segmentation,
           persona scenario</span>, and a <span class="bold">journey map.</span>
-        <br><br>In <span class="discover-italic">Develop</span> phase, I created a blueprint to solve my users’ problems
-        by incorporating creative <span class="bold">ideation, UX strategy.</span> Based on UX strategy, I started developing
+        <br><br>In <span class="discover-italic">Develop</span> phase, I created a blueprint to solve my users’
+        problems
+        by incorporating creative <span class="bold">ideation, UX strategy.</span> Based on UX strategy, I started
+        developing
         a design concept by utilizing <span class="bold">mind maps, concept keywords, and a mood board.</span>
         <br><br>In <span class="discover-italic">Deliver</span> phase, I created <span class="bold"> wireframes </span>and
-        had a <span class="bold">low-fi wireframe session</span>, which provided me precious feedback from users. Finally,
+        had a <span class="bold">low-fi wireframe session</span>, which provided me precious feedback from users.
+        Finally,
         I finalized my <span class="bold"> final design </span>and completed <span class="bold">prototyping</span>.
 
       </p>
@@ -111,11 +129,14 @@
     <section class="process">
       <h2>Process: Discover</h2>
       <p>
-        In <span class="discover-italic">Discover</span> phase, tailored research is key. As a team-based research, we conducted <span
-          class="bold">desk research </span>by assigning each other different foci: domestic trend, global trend, or current
+        In <span class="discover-italic">Discover</span> phase, tailored research is key. As a team-based research, we
+        conducted <span class="bold">desk research </span>by assigning each other different foci: domestic trend,
+        global trend, or current
         popular travel app services.
-        <br><br>After discussion of the outcomes, we conducted a <span class="bold">survey </span>with 100+ participants,
-        and <span class="bold">individual interviews</span> to figure out current users' experiences with other travel apps
+        <br><br>After discussion of the outcomes, we conducted a <span class="bold">survey </span>with 100+
+        participants,
+        and <span class="bold">individual interviews</span> to figure out current users' experiences with other travel
+        apps
         and problems they encountered. We later, selected 4 interviewees, who gave insightful responses for <span class="bold">in-depth
           individual interviews.</span>
       </p>
@@ -132,15 +153,21 @@
     </section>
     <section class="process">
       <h2>Process: Define</h2>
-      <p>To me, <span class="italic">Define</span> is the most important phase, requiring more time and effort than any other
+      <p>To me, <span class="italic">Define</span> is the most important phase, requiring more time and effort than any
+        other
         phase. <span class="bold">Defining WHO (target user), WHAT (service blueprint), HOW (method)</span>
         is the heart of problem-solving.
-        <br><br>As for the first step, I asked myself, “Who is my target user?” to <span class="bold">identify my core users.
-        </span> In this process, I grabbed 5 sticky notes and define 5 types of people who may need my service the most.
-        Based on this, I drew a <span class="bold">user segmentation matrix </span>based on two most important factors, age
+        <br><br>As for the first step, I asked myself, “Who is my target user?” to <span class="bold">identify my core
+          users.
+        </span> In this process, I grabbed 5 sticky notes and define 5 types of people who may need my service the
+        most.
+        Based on this, I drew a <span class="bold">user segmentation matrix </span>based on two most important factors,
+        age
         and traveling style, as x and y axis criteria.
-        <br><br>After, I wrote down three major tasks that such types of people would perform when they need my service.
-        Then, I decided to choose which types of users I should focus on to define my target users. Based on the above-mentioned
+        <br><br>After, I wrote down three major tasks that such types of people would perform when they need my
+        service.
+        Then, I decided to choose which types of users I should focus on to define my target users. Based on the
+        above-mentioned
         key findings and target users, I created <span class="bold">personas, persona scenario, </span> and <span class="bold">journey
           maps </span>to <span class="bold">identify my target users and users’ problems.</span>
       </p>
@@ -155,15 +182,19 @@
     </section>
     <section class="process">
       <h2>Process: Develop</h2>
-      <p>In <span class="italic">Develop</span> phase, I should consider WHAT to deliver, a <span class="bold">service blueprint
+      <p>In <span class="italic">Develop</span> phase, I should consider WHAT to deliver, a <span class="bold">service
+          blueprint
         </span>. To do this, previous research team members gathered for an <span class="bold">ideation</span>
         sprint. Each member had 30 minutes of allotted time to come up with 50+ ideas to address users’ problems.
         <br><br>After exploring diverse ideas, I picked 5 ideas that I want to focus on and conducted <span class="bold">Funnel
           Vision
-        </span>. By doing this, I was able to converge and distill ideas to evaluate them properly, and find the solution
-        that best matched my target users. With the above-mentioned process, I finalized <span class="bold">service key features,
+        </span>. By doing this, I was able to converge and distill ideas to evaluate them properly, and find the
+        solution
+        that best matched my target users. With the above-mentioned process, I finalized <span class="bold">service key
+          features,
           service concept to deliver UX values.</span>
-        <br><br>Based on UX values, I started developing a design concept by utilizing <span class="bold">mindmaps and a
+        <br><br>Based on UX values, I started developing a design concept by utilizing <span class="bold">mindmaps and
+          a
           mood board.
         </span>
       </p>
@@ -178,17 +209,17 @@
         <span class="bold">design</span> and completed <span class="bold">prototyping</span>.
       </p>
       <figure>
-          <img class="rwd-img" src="rc_contents/deliver_wireframe.jpg" alt="">
-          <figcaption class="figcaption">Wireframes.</figcaption>
-        <img class="rwd-img" src="rc_contents/deliver_final_design.jpg" alt="">
+        <img class="rwd-img image-selector" src="rc_contents/deliver_wireframe.jpg" alt="">
+        <figcaption class="figcaption">Wireframes.</figcaption>
+        <img class="rwd-img image-selector" src="rc_contents/deliver_final_design.jpg" alt="">
         <figcaption class="figcaption">Final design and User flow based on low-fi session feedbacks.</figcaption>
         <figure class="video">
           <video class="video" src="rc_contents/DONERC_compressed.mp4" autoplay controls muted width="40%"></video>
           <figcaption class="video_caption">Prototyping.</figcaption>
         </figure>
       </figure>
-    </section> 
-  
+    </section>
+
     <!-- <figure class="video">
         <video src="practice-img/비디오삽입.mp4" autoplay muted></video>
         <figcaption>Driver profile motion studies.</figcaption>
@@ -199,14 +230,20 @@
       <p>
         This project gave me two important takeaways.<br><br>
         <span class="bold">One: Although the market is red ocean, opportunities exist.</span>
-        <br><br>When I was initially given the project, I worried that the great number of travel apps available might make
-        it hard for me to come up with fresh ideas. However, I’ve found that there are always needs untapped, which means
+        <br><br>When I was initially given the project, I worried that the great number of travel apps available might
+        make
+        it hard for me to come up with fresh ideas. However, I’ve found that there are always needs untapped, which
+        means
         tailored research along with keen insights can always reveal opportunities.
         <br><br> <span class="bold">Two: Feedbacks make everything “so much” better.</span>
-        <br><br>From UX research to design, I’ve received tons of feedback not only from users but also other designers or
-        project managers. Users’ feedbacks are the core part of everything, helping me to fully empathize with their need
-        so that I don't over-rely on my personal opinions. Other designers’ feedback allowed me to further consider details
-        of my design based on professional UX and aesthetic views. Project managers’ feedback allowed me to consider the
+        <br><br>From UX research to design, I’ve received tons of feedback not only from users but also other designers
+        or
+        project managers. Users’ feedbacks are the core part of everything, helping me to fully empathize with their
+        need
+        so that I don't over-rely on my personal opinions. Other designers’ feedback allowed me to further consider
+        details
+        of my design based on professional UX and aesthetic views. Project managers’ feedback allowed me to consider
+        the
         business value of my product.
     </section>
 
@@ -229,7 +266,12 @@
     </address>
     <small class="copyright">Designed and Coded by &copy;2018 April Shin.</small>
   </footer>
-
+  <div class="img-magnifier-container">
+    <img id="myimage2" src="rc_contents/deliver_wireframe.jpg" width="600" height="400" alt="Girl" alt="">
+  </div>
+  <script>$('.image-selector').lightzoom({
+      glassSize: 150, zoomPower: 1.6
+    });</script>
 </body>
 
 </html>
