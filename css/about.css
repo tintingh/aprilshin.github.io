@@ -176,13 +176,10 @@ body {
   display: flex;
 }
 .nav-portfolio {
-  margin-right: 30px;
-  font-size: 17px;
   color: #333;
   letter-spacing: 0.3px;
 }
 .nav-about {
-  font-size: 17px;
   color: #333;
   letter-spacing: 0.3px;
 }
@@ -265,8 +262,16 @@ body {
   .header {
     padding: 40px 20px 40px 20px;
   }
+  
   .logo {
     margin-left: 5px;
+  }
+  .nav-portfolio {
+  font-size: 14px;
+  margin-right: 20px;
+}
+.nav-about {
+  font-size: 14px;
   }
   .footer {
     font-size: 16px;
@@ -282,6 +287,7 @@ body {
   font-size: 20px;
   font-weight: 300;
 }
+
   .about-article{
     padding: 8px 35px;
     font-size: 18px;
@@ -322,6 +328,14 @@ body {
   font-size: 32px;
   font-weight: 300;
 }
+.nav-portfolio {
+  font-size: 17px;
+  margin-right: 30px;
+}
+.nav-about {
+  font-size: 17px;
+}
+
   .about-article{
   padding: 20px 150px;
   font-size: 24px;

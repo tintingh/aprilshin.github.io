@@ -171,13 +171,10 @@ body {
   display: flex;
 }
 .nav-portfolio {
-  margin-right: 30px;
-  font-size: 17px;
   color: #333;
   letter-spacing: 0.3px;
 }
 .nav-about {
-  font-size: 17px;
   color: #333;
   letter-spacing: 0.3px;
 }
@@ -199,9 +196,8 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   font-family: "Montserrat", sans-serif;
-  
 }
-.copyright{
+.copyright {
   display: block;
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
@@ -209,44 +205,43 @@ body {
 
 /* Style all font awesome icons */
 .fa {
-    padding: 10px;
-    font-size: 200px;
-    width: 38px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    margin-bottom: 6px; 
+  padding: 10px;
+  font-size: 200px;
+  width: 38px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-bottom: 6px;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /* Set a specific color for each brand */
 
 /* Dribbble */
 .fa-dribbble {
-    background: #C42261;
-    color: white;
+  background: #c42261;
+  color: white;
 }
 
 /* LinkedIn */
 .fa-linkedin {
-    background: #0077b5;
-    color: white;
+  background: #0077b5;
+  color: white;
 }
 /* Medium */
 .fa-medium {
-    background: #333;
-    color: white;
+  background: #333;
+  color: white;
 }
 /* Google */
 .fa-google {
-    background: #ea4335;
-    color: white;
+  background: #ea4335;
+  color: white;
 }
-
 
 /* 모바일 */
 @media screen and (max-width: 1000px) {
@@ -255,6 +250,13 @@ body {
   }
   .logo {
     margin-left: 5px;
+  }
+  .nav-portfolio {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  .nav-about {
+    font-size: 14px;
   }
   .route {
     margin: 20px;
@@ -356,7 +358,7 @@ body {
     line-height: 25px;
     font-family: "Open Sans", sans-serif;
   }
-   .next {
+  .next {
     position: static;
     display: block;
     margin: 50px;
@@ -380,7 +382,7 @@ body {
     margin: 50px;
     padding: 20px;
   } */
- .footer {
+  .footer {
     font-size: 16px;
   }
   .copyright {
@@ -391,13 +393,20 @@ body {
 }
 /* 데스크탑 */
 @media screen and (min-width: 1000px) {
- .header {
+  .header {
     padding: 40px 100px 40px 100px;
     background-color: #fff;
     position: sticky;
     top: 0;
     z-index: 100;
     box-shadow: 0 3px 3px 0 rgba(190, 190, 190, 0.01);
+  }
+  .nav-portfolio {
+    margin-right: 30px;
+    font-size: 17px;
+  }
+  .nav-about {
+    font-size: 17px;
   }
   .route-creator-title {
     font-size: 30px;
@@ -541,7 +550,7 @@ body {
     color: #fff;
   }
 
-   .footer {
+  .footer {
     font-size: 18px;
   }
   .copyright {

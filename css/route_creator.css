@@ -173,13 +173,10 @@ body {
   display: flex;
 }
 .nav-portfolio {
-  margin-right: 30px;
-  font-size: 17px;
   color: #333;
   letter-spacing: 0.3px;
 }
 .nav-about {
-  font-size: 17px;
   color: #333;
   letter-spacing: 0.3px;
 }
@@ -259,6 +256,13 @@ body {
   }
   .logo {
     margin-left: 5px;
+  }
+   .nav-portfolio {
+    font-size: 14px;
+    margin-right: 20px;
+}
+.nav-about {
+  font-size: 14px;
   }
   .route {
     margin: 20px;
@@ -402,6 +406,15 @@ body {
     top: 0;
     z-index: 100;
     box-shadow: 0 3px 3px 0 rgba(190, 190, 190, 0.01);
+  }
+  .nav-portfolio {
+  margin-right: 30px;
+  font-size: 17px;
+  color: #333;
+  letter-spacing: 0.3px;
+}
+.nav-about {
+  font-size: 17px;
   }
   .route-creator-title {
     font-size: 30px;
