@@ -240,17 +240,32 @@ body {
 }
 .card1 a:hover::after {
   background: rgba(0, 0, 0, 0.5);
-  content: "Route Creator UX design";
+  content: "TutorU UX/UI Design";
   padding: 50px;
 }
 .card2 a:hover::after {
-  background: rgba(0, 0, 0, 0.4);
-  content: "Samsung Global Audio UX consulting";
+  background: rgba(0, 0, 0, 0.5);
+  content: "iTrack UX/Web Redesign";
   padding: 50px;
 }
 .card3 a:hover::after {
-  background: rgba(0, 0, 0, 0.4);
-  content: "[TBD] UX Design Thinking Project: Solution to the world's lowest birth rate in Korea";
+  background: rgba(0, 0, 0, 0.5);
+  content: "Route Creator UX/UI Design";
+  padding: 50px;
+}
+.card4 a:hover::after {
+  background: rgba(0, 0, 0, 0.5);
+  content: "CHI Competition";
+  padding: 50px;
+}
+.card5 a:hover::after {
+  background: rgba(0, 0, 0, 0.5);
+  content: "Samsung Global Audio UX Consulting";
+  padding: 50px;
+}
+.card6 a:hover::after {
+  background: rgba(0, 0, 0, 0.5);
+  content: "University of Michigan Medicine UX Research";
   padding: 50px;
 }
 
@@ -421,7 +436,7 @@ body {
     overflow: hidden;
   }
   .card a::after{
-    font-size: 24px;
+    font-size: 20px;
   }
   /* 카드 퍼센테이지 비율을 다르게 하고 싶으면 아래 카드 위드를 고치면 됨 */
   .card{
@@ -432,13 +447,20 @@ body {
     width: 50%;
   }
   .card2 {
-    width: 50%;
+    width: 25%;
   }
   .card3 {
-    width: 50%;
+    width: 25%;
   }
   .card4 {
     width: 50%;
+    float: right;
+  }
+  .card5 {
+    width: 25%;
+  }
+  .card6 {
+    width: 25%;
   }
   /* .card3 {
     height: 485px;
