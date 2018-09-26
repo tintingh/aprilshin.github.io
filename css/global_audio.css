@@ -148,7 +148,7 @@ body {
   /* font-family: "Open Sans", sans-serif; */
   font-family: "PT Serif", serif;
   font-weight: 400;
-  color: #333;
+  color: #414145;
 }
 
 .rwd-img {
@@ -171,11 +171,11 @@ body {
   display: flex;
 }
 .nav-portfolio {
-  color: #333;
+  color: #414145;
   letter-spacing: 0.3px;
 }
 .nav-about {
-  color: #333;
+  color: #414145;
   letter-spacing: 0.3px;
 }
 .nav-about a:hover,
