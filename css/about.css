@@ -160,6 +160,9 @@ body {
   line-height: 35px;
   font-weight: 300;
 }
+.italic{
+  font-style: italic;
+}
 
 /* 공통 헤더 */
 .header {
@@ -193,10 +196,18 @@ body {
 }
 
 /* 공통 메인 */
-.medium, .dribbble{
+.medium {
   text-decoration:underline;
-  color: #bd2a3b;
+  color: #acacac;
   font-weight: 400;
+  font-style: italic;
+}
+
+.dribbble {
+  text-decoration:underline;
+  color: #EF4285;
+  font-weight: 400;
+  font-style: italic;
 }
 /* Clear floats after the columns */
 .row:after {
