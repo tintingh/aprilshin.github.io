@@ -265,7 +265,7 @@ body {
 }
 .card6 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "[In Process] University of Michigan Medicine UX Consulting";
+  content: "[In Process] University of Michigan Medicine UX Research";
   padding: 50px;
 }
 
