@@ -239,33 +239,33 @@ body {
   align-items: center;
 }
 .card1 a:hover::after {
-  background: rgba(0, 0, 0, 0.5);
-  content: "Earn & Learn UX/UI Design";
+  background: rgba(0, 0, 0, 0.6);
+  content: "[In Process] Earn & Learn UX/UI Design";
   padding: 50px;
 }
 .card2 a:hover::after {
-  background: rgba(0, 0, 0, 0.5);
-  content: "iTrack UX/Web Redesign";
+  background: rgba(0, 0, 0, 0.6);
+  content: "[Will be updated by Oct.7] iTrack UX/Web Redesign";
   padding: 50px;
 }
 .card3 a:hover::after {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   content: "Route Creator UX/UI Design";
   padding: 50px;
 }
 .card4 a:hover::after {
-  background: rgba(0, 0, 0, 0.5);
-  content: "CHI Competition";
+  background: rgba(0, 0, 0, 0.6);
+  content: "[In Process] 2018-2019 Student CHI Competition";
   padding: 50px;
 }
 .card5 a:hover::after {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   content: "Samsung Global Audio UX Consulting";
   padding: 50px;
 }
 .card6 a:hover::after {
-  background: rgba(0, 0, 0, 0.5);
-  content: "University of Michigan Medicine UX Consulting";
+  background: rgba(0, 0, 0, 0.6);
+  content: "[In Process] University of Michigan Medicine UX Consulting";
   padding: 50px;
 }
 
@@ -307,7 +307,6 @@ body {
 }
 .copyright{
   display: block;
-  margin-top: 20px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -398,13 +397,13 @@ body {
   .copyright {
     width: 100%;
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 }
 /* 데스크탑 */
 @media screen and (min-width: 1000px) {
  .header {
-    padding: 40px 100px 40px 100px;
+    padding: 45px 80px 45px 80px;
     background-color: #fff;
     position: sticky;
     top: 0;
@@ -488,11 +487,11 @@ body {
   }
   .footer {
     font-size: 18px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
   }
   .copyright {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
