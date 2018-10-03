@@ -354,6 +354,7 @@ body {
 @media screen and (max-width: 1000px) {
   .header {
     padding: 40px 20px 40px 20px;
+    position: sticky;
   }
   .nav-portfolio {
   font-size: 14px;

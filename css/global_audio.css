@@ -244,6 +244,7 @@ body {
 @media screen and (max-width: 1000px) {
   .header {
     padding: 40px 20px 40px 20px;
+    position: sticky;
   }
   .logo {
     margin-left: 5px;
