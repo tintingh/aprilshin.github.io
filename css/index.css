@@ -245,7 +245,7 @@ body {
 }
 .card2 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "[Will be updated by Oct.7] iTrack UX/Web Redesign";
+  content: "[In process] iTrack UX/Web Redesign";
   padding: 50px;
 }
 .card3 a:hover::after {
@@ -255,7 +255,7 @@ body {
 }
 .card4 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "[In Process] 2018-2019 Student CHI Competition";
+  content: "[In process] 2019 Student CHI Competition";
   padding: 50px;
 }
 .card5 a:hover::after {
@@ -265,7 +265,7 @@ body {
 }
 .card6 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "[In Process] University of Michigan Medicine UX Research";
+  content: "[In Process] Michigan Medicine UX Research";
   padding: 50px;
 }
 
