@@ -213,6 +213,12 @@ body {
   font-weight: 500;
   font-style: italic;
 }
+.get-in-touch {
+  text-decoration:underline;
+  color: #bd2a3b;
+  font-weight: 500;
+  font-style: italic;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
