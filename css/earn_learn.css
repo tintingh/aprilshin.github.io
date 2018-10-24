@@ -192,59 +192,63 @@ body {
 
 /* 공통 Footer */
 .footer {
-  background: #fff;
+  background: #414145;
   padding: 30px;
   /* display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; */
-  color: #acacac;
+  color: #fff;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 .copyright {
   display: block;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 /* Style all font awesome icons */
 .fa {
-  padding: 10px;
+  margin: 20px;
   font-size: 200px;
-  width: 38px;
+  width: 1px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin-bottom: 6px;
+  margin-bottom: 1px;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 /* Set a specific color for each brand */
 
 /* Dribbble */
 .fa-dribbble {
-  background: #c42261;
+  background: #414145;
+  /* background: #C42261; */
   color: white;
 }
 
 /* LinkedIn */
 .fa-linkedin {
-  background: #0077b5;
+  background: #414145;
+  /* background: #0077b5; */
   color: white;
 }
 /* Medium */
 .fa-medium {
-  background: #333;
+  background: #414145;
   color: white;
 }
 /* Google */
 .fa-google {
-  background: #ea4335;
+  background: #414145;
+  /* background: #ea4335; */
   color: white;
 }
 
@@ -364,21 +368,21 @@ body {
     line-height: 25px;
     font-family: "Open Sans", sans-serif;
   }
-  .next {
+.next {
     position: static;
     display: block;
     margin: 50px;
     padding: 20px;
-    border: 2px solid #acacac;
+    border: 1px solid #bd2a3b;
     transition: all 500ms;
     /* font-family: "Open Sans", sans-serif; */
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     background: #fff;
-    color: #acacac;
+    color: #bd2a3b;
   }
   .next:hover {
-    background: #acacac;
+    background: #bd2a3b;
     color: #fff;
   }
 
@@ -395,8 +399,8 @@ body {
   }
   .copyright {
     width: 100%;
-    font-size: 14px;
-    margin-top: 5px;
+    font-size: 10px;
+    margin-top: 10px;
   }
 }
 /* 데스크탑 */
@@ -411,12 +415,12 @@ body {
   }
   .nav-portfolio {
     margin-right: 30px;
-    font-size: 17px;
+    font-size: 16px;
     color: #333;
     letter-spacing: 0.3px;
   }
   .nav-about {
-    font-size: 17px;
+    font-size: 16px;
   }
   .route-creator-title {
     font-size: 30px;
@@ -542,31 +546,32 @@ body {
     line-height: 29px;
     font-family: "Open Sans", sans-serif;
   }
-  .next {
+ .next {
     position: absolute;
     right: 90px;
     bottom: 100px;
     padding: 30px 100px;
-    border: 2px solid #acacac;
+    border: 1px solid #bd2a3b;
     transition: all 500ms;
     /* font-family: "Open Sans", sans-serif; */
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     background: #fff;
-    color: #acacac;
+    color: #bd2a3b;
   }
   .next:hover {
-    background: #acacac;
+    background: #bd2a3b;
     color: #fff;
   }
-
-  .footer {
-    font-size: 18px;
+   .footer {
+    font-size: 22px;
     margin-top: 50px;
-    margin-bottom: 40px;
+    font-weight: 200;
   }
   .copyright {
     width: 100%;
-    margin-top: 10px;
+    font-size: 13px;
+    margin-top: 25px;
+    text-align: center;
   }
 }
