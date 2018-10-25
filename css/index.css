@@ -265,7 +265,7 @@ body {
 }
 .card4 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "[Coming Soon!] 2019 Student CHI Competition";
+  content: "iTrack UX/Web Re-design";
   padding: 50px;
 }
 .card5 a:hover::after {
