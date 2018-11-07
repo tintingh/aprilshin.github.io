@@ -194,6 +194,9 @@ body {
   color: #bd2a3b;
   font-weight: 300;
 }
+.bold{
+  font-weight: 700;
+}
 
 /* 공통 메인 */
 .about_intro {
@@ -202,20 +205,27 @@ body {
 }
 .medium {
   /* text-decoration:underline; */
-  color: #bd2a3b;
-  font-weight: 300;
+  color: #333;
+  font-weight: 400;
+  font-style: italic;
+    text-decoration-line: underline;
 
 }
 
 .dribbble {
  /* text-decoration:underline; */
-  color: #bd2a3b;
-  font-weight: 300;
+  color: #ea4c89;
+  font-weight: 400;
+  font-style: italic;
+    text-decoration-line: underline;
+  
 }
 .get-in-touch {
  /* text-decoration:underline; */
   color: #bd2a3b;
-  font-weight: 300;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration-line: underline;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -338,7 +348,7 @@ body {
   .about-intro {
     padding: 20px 35px;
     line-height: 28px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
   }
@@ -413,7 +423,7 @@ body {
     font-size: 21px;
     font-family: "Montserrat", sans-serif;
     /* font-family: "Open Sans", sans-serif; */
-    line-height: 33px;
+    line-height: 38px;
     font-weight: 300;
   }
   .row {
