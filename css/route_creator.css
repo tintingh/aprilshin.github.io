@@ -309,7 +309,7 @@ body {
   .route h1 {
     font-size: 30px;
     font-weight: 400;
-    padding-top: 50px;
+    padding-top: 30px;
     line-height: 1.3;
     font-family: "PT Serif", serif;
     
@@ -480,7 +480,7 @@ body {
   .route h1 {
     font-size: 48px;
     font-weight: 500;
-    padding-top: 150px;
+    padding-top: 80px;
     margin-left: 23px;
     line-height: 1.3;
     font-family: "PT Serif", serif;
