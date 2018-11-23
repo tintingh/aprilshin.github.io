@@ -320,53 +320,7 @@ body {
   align-content: center;
 }
 
-.column {
-    float: left;
-    width: 50%;
-    font-size: 16px;
-    line-height: 30px;
-    font-family: "Open Sans", sans-serif;
-    margin-top: 70px;
-}
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-    font-size: 16px;
-    line-height: 30px;
-    font-family: "Open Sans", sans-serif;
-    
-}
-.keytitle{
-  /* font-family: "PT Serif", serif; */
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  color: #414145;
-  font-size: 30px;
-
-}
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #414145; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 20px; /* Some padding */
-    border-radius: 0px; /* Rounded corners */
-    font-size: 14px; /* Increase font size */
-    font-family: "Open Sans", sans-serif;
-}
-
-#myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-}
 
 /* 모바일 */
 @media screen and (max-width: 1000px) {
@@ -528,6 +482,53 @@ body {
 .button1:hover {
   width: 300px;  
 }
+
+.column {
+    float: left;
+    width: 50%;
+    font-size: 10px;
+    line-height: 15px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.keytitle{
+  /* font-family: "PT Serif", serif; */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #414145;
+  font-size: 15px;
+
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #414145; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+    font-family: "Open Sans", sans-serif;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
 }
 /* 데스크탑 */
 @media screen and (min-width: 1000px) {
@@ -678,6 +679,56 @@ body {
     line-height: 29px;
     font-family: "Open Sans", sans-serif;
   }
+.column {
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 70px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.keytitle{
+  /* font-family: "PT Serif", serif; */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #414145;
+  font-size: 30px;
+
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #414145; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 14px; /* Increase font size */
+    font-family: "Open Sans", sans-serif;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
   .next {
     position: absolute;
     right: 90px;
