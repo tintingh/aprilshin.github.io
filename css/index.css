@@ -304,12 +304,12 @@ body {
 }
 .card1 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Route Creator UX/UI Design";
+  content: "Earn & Learn UX/UI Design";
   padding: 50px;
 }
 .card2 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "[In Process] Earn & Learn UX/UI Design";
+  content: "Route Creator UX/UI Design";
   padding: 50px;
 }
 .card3 a:hover::after {
@@ -561,10 +561,10 @@ body {
     float: right;
   }
   .card5 {
-    width: 25%;
+    width: 50%;
   }
   .card6 {
-    width: 25%;
+    width: 50%;
   }
   /* .card3 {
     height: 485px;
