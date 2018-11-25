@@ -324,12 +324,12 @@ body {
 }
 .card5 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "[In process] iTrack UX/Web Redesign";
+  content: "[In Progress] Michigan Medicine UX Research";
   padding: 50px;
 }
 .card6 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "[In Process] Michigan Medicine UX Research";
+  content: "[Coming Soon!] CHI Student Design Competition";
   padding: 50px;
 }
 
@@ -540,11 +540,11 @@ body {
     overflow: hidden;
   }
   .card a::after {
-    font-size: 20px;
+    font-size: 22px;
   }
   /* 카드 퍼센테이지 비율을 다르게 하고 싶으면 아래 카드 위드를 고치면 됨 */
   .card {
-    font-size: 30px;
+    font-size: 22px;
     /* border: 1px solid #aaa; */
   }
   .card1 {
