@@ -173,10 +173,9 @@ body {
   text-align: center;
   font-size: 14px;
   padding: 18px;
-  width: 240px;
+  width: 300px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -189,10 +188,9 @@ body {
   text-align: center;
   font-size: 14px;
   padding: 18px;
-  width: 240px;
+  width: 300px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
   font-family: "Open Sans", sans-serif;
 }
 .button1 {
