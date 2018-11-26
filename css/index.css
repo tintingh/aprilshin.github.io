@@ -175,7 +175,7 @@ body {
   /* text-decoration: underline; */
 }
 .medium{
-  color: #626262;
+  color: #6d6d6d;
   font-weight: 400;
   /* font-style: italic; */
   /* text-decoration: underline; */
@@ -185,6 +185,10 @@ body {
   font-weight: 400;
   /* font-style: italic; */
   /* text-decoration: underline; */
+}
+.resume{
+  color: #bd2a3b;
+  font-weight: 400;
 }
 
 .underline {
