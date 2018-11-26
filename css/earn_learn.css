@@ -469,6 +469,7 @@ body {
     width: 100%;
     font-size: 12px;
     margin-top: 1px;
+     font-weight: 400;
   }
   .fa {
     margin: 18px;
@@ -755,6 +756,7 @@ body {
     font-size: 13px;
     margin-top: 5px;
     text-align: center;
+     font-weight: 400;
   }
   .fa {
     margin: 22px;

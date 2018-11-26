@@ -482,6 +482,7 @@ body {
   .copyright {
     width: 100%;
     font-size: 12px;
+    font-weight: 400;
     margin-top: 1px;
   }
   .fa {
@@ -599,6 +600,7 @@ body {
     font-size: 13px;
     margin-top: 5px;
     text-align: center;
+    font-weight: 400;
   }
   .fa {
   margin: 22px;
