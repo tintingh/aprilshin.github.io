@@ -545,11 +545,11 @@ body {
     overflow: hidden;
   }
   .card a::after {
-    font-size: 22px;
+    font-size: 20px;
   }
   /* 카드 퍼센테이지 비율을 다르게 하고 싶으면 아래 카드 위드를 고치면 됨 */
   .card {
-    font-size: 22px;
+    font-size: 20px;
     /* border: 1px solid #aaa; */
   }
   .card1 {
